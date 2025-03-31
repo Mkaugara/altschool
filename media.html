@@ -1,0 +1,38 @@
+<!-- media.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <h1>About Me</h1>
+    <p>Hello! My name is Njingamile George Mkaugara, and I am passionate about technology, cybersecurity, and cloud engineering.</p>
+    
+    <h2>My Picture</h2>
+    <picture>
+        <source srcset="image-large.jpg" media="(min-width: 1024px)">
+        <source srcset="image-medium.jpg" media="(min-width: 768px)">
+        <source srcset="image-small.jpg" media="(max-width: 767px)">
+        <img src="image-default.jpg" alt="A picture of me">
+    </picture>
+    
+    <h2>My Audio Message</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <h2>My Video Message</h2>
+    <video controls width="400">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Embedded Content</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/example" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
